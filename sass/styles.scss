@@ -1,0 +1,252 @@
+body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.biography {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    padding: 8px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.leftSection {
+    background: rgba(115,199,179,1);
+    background: -moz-linear-gradient(top, rgba(115,199,179,1) 0%, rgba(93,164,147,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(115,199,179,1)), color-stop(100%, rgba(93,164,147,1)));
+    background: -webkit-linear-gradient(top, rgba(115,199,179,1) 0%, rgba(93,164,147,1) 100%);
+    background: -o-linear-gradient(top, rgba(115,199,179,1) 0%, rgba(93,164,147,1) 100%);
+    background: -ms-linear-gradient(top, rgba(115,199,179,1) 0%, rgba(93,164,147,1) 100%);
+    background: linear-gradient(to bottom, rgba(115,199,179,1) 0%, rgba(93,164,147,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73c7b3', endColorstr='#5da493', GradientType=0 );
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.rightSection {
+    background: rgba(251,251,251,1);
+    background: -moz-linear-gradient(top, rgba(251,251,251,1) 0%, rgba(201,200,200,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,251,251,1)), color-stop(100%, rgba(201,200,200,1)));
+    background: -webkit-linear-gradient(top, rgba(251,251,251,1) 0%, rgba(201,200,200,1) 100%);
+    background: -o-linear-gradient(top, rgba(251,251,251,1) 0%, rgba(201,200,200,1) 100%);
+    background: -ms-linear-gradient(top, rgba(251,251,251,1) 0%, rgba(201,200,200,1) 100%);
+    background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(201,200,200,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#c9c8c8', GradientType=0 );
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-grow: 3;
+}
+
+.course, .training, .hobby {
+    padding: 8px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+        color: white;
+        margin-bottom: 8px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4px 0px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+
+    &__icon {
+        color: white;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__name {
+        align-self: center;
+        font-weight: bold;
+        font-size: 11px;
+        color: #696969;
+        margin: 4px;
+    }
+}
+
+
+ .about {
+    text-align: center;
+    padding: 8px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+        color: white;
+        margin-bottom: 8px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4px 0px;
+    }
+
+    &__icon {
+        color: white;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__name {
+        align-self: center;
+        font-weight: bold;
+        font-size: 11px;
+        color: #696969;
+        margin: 4px;
+    }
+
+    &__list {
+        text-align: start;
+        align-self: center;
+        font-weight: bold;
+        font-size: 11px;
+        color: #696969;
+    }
+    
+    &__list-item {
+        margin: 8px 0px;
+    }
+
+    &__nickname {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-bottom: 8px;
+    }
+
+    &__profession {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-bottom: 8px;
+    }
+
+    &__portrait {
+        text-align: center;
+        width: 240px;
+        height: auto;
+        border-radius: 16px;
+    }
+}
+
+
+.education, .experience {
+    padding: 8px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+        color: #696969;
+        margin-bottom: 8px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4px 0px;
+    }
+
+    &__degree-form {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        padding: 0px 4px;
+    }
+
+    &__degree-type {
+        text-align: center;
+        font-weight: bold;
+        color: #6ec0ac;
+    }
+
+    &__degree-year {
+        font-weight: bold;
+        color: #696969
+    }
+
+    &__degree-period {
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        color: #6ec0ac
+    }
+
+    &__establishment-form {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        align-items: center;
+    }
+
+    &__name {
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        color: #696969;
+    }
+    
+    &__profile {
+        align-self: flex-start;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 20px;
+        color: #696969;
+    }
+}
+
+
+.professional, .personal {
+    text-align: center;
+
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+        color: #696969;
+        margin-bottom: 8px;
+    }
+}
