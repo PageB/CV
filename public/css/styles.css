@@ -74,6 +74,7 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
   align-items: center;
 }
 .course__icon, .training__icon, .hobby__icon {
+  align-self: center;
   color: white;
   width: 24px;
   height: 24px;
@@ -105,6 +106,7 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
   padding: 4px 0px;
 }
 .about__icon {
+  align-self: center;
   color: white;
   width: 24px;
   height: 24px;
@@ -210,6 +212,7 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
 
 .professional, .personal {
   text-align: center;
+  margin-bottom: 8px;
 }
 .professional__title, .personal__title {
   font-weight: bold;
@@ -217,7 +220,20 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
   text-decoration: underline;
   text-align: center;
   color: #696969;
+  margin-bottom: 16px;
+}
+
+.projects {
+  text-align: center;
   margin-bottom: 8px;
+}
+.projects__title {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  color: #696969;
+  margin-bottom: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
