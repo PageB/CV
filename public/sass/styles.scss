@@ -224,7 +224,7 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
     &__name {
         align-self: flex-start;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
         color: #696969;
     }
@@ -264,5 +264,43 @@ body, div, p, h1, h2, h3, h3, h4, h5, h6, p {
         text-align: center;
         color: #696969;
         margin-bottom: 16px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &__item {
+        flex: 1;
+    }
+
+    &__name {
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #696969;
+    }
+ 
+    &__description {
+        align-self: flex-start;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 20px;
+        color: #696969;
+        height: 40px;
+    }
+
+    &__link {
+        align-self: flex-start;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 20px;
+        color: #e5a345;
     }
 }
